@@ -1,0 +1,85 @@
+@media only screen and (max-width: 700px){
+    header{
+        padding-bottom: 0%;
+    }
+    header .container{
+        display: flex;
+        position: relative;
+    }
+    header .container{
+        flex-direction: column;
+    }
+    header nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .filme-principal .container{
+        margin-left: 30px;
+        width: 300px;
+    }
+    .filme-principal{
+        height: 400px;
+    }
+    .botao{
+        width: 120px;
+    }
+    .perfil{
+        display: none;
+    }
+    #add
+    {
+        display: none;
+    }
+    #list{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 701px) {
+    header{
+        padding-bottom: 0%;
+    }
+    header .container{
+        display: flex;
+        position: relative;
+    }
+    .perfil{
+        display: none;
+    }
+    header nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1001px) {
+    header{
+        padding-bottom: 6%;
+    }
+    .perfil{
+        margin-right: 13%;
+    }
+    .filme-principal{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1201px) {
+    header{
+        padding-bottom: 5%;
+    }
+    .perfil{
+        margin-right: 7%;
+    }
+    .filme-principal{
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 1800px){
+    header{
+        padding-bottom: 4%;
+    }
+}
